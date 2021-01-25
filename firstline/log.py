@@ -16,7 +16,7 @@ def setuplog(logname, debug=False):
     log.setLevel(logging.INFO)
 
     if debug:
-        formatter = logging.Formatter('[%(asctime)s] [%(%name)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
+        formatter = logging.Formatter('[%(asctime)s] [%(name)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
 
         streamhandler = logging.StreamHandler()
         streamhandler.setFormatter(formatter)
