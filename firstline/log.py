@@ -5,7 +5,7 @@ import logging
 def setuplog(logname, debug=False):
     """Initializes logging"""
 
-    log = logging.getLogger(logname)
+    log = logging.getLogger()
 
     formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s')
     filehandler = logging.FileHandler(logname.split('.')[0]+'.log')
@@ -20,5 +20,6 @@ def setuplog(logname, debug=False):
         streamhandler.setFormatter(formatter)
         log.addHandler(streamhandler)
         log.setLevel(logging.DEBUG)
+        log.debug('Debug logging: %s', debug)
 
     return log
