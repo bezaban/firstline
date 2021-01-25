@@ -8,7 +8,7 @@ def setuplog(logname, debug=False):
     log = logging.getLogger(logname)
 
     formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s')
-    filehandler = logging.FileHandler(__package__.split('.')[0]+'.log')
+    filehandler = logging.FileHandler(logname.split('.')[0]+'.log')
     filehandler.setFormatter(formatter)
 
     log.addHandler(filehandler)
