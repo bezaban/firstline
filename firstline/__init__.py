@@ -1,2 +1,2 @@
-import confighandler
-import log
+from firstline import confighandler
+from firstline import log
