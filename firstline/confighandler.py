@@ -12,7 +12,7 @@ class ConfigHandler:
 
     def __init__(self, configfile, default_config=None, interactive=False):
 
-        self.log = logging.getLogger()
+        self.log = logging.getLogger(__name__)
         self.configfile = configfile
 
         if not self.__config_exists(configfile):

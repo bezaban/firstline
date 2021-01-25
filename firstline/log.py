@@ -5,7 +5,7 @@ import logging
 def setuplog(logname, debug=False):
     """Initializes logging"""
 
-    log = logging.getLogger()
+    log = logging.getLogger(__name__)
 
     formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
 
