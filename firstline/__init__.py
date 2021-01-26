@@ -1,2 +1,2 @@
 from .log import setuplog 
-from confighandler import ConfigHandler
+from .confighandler import ConfigHandler
