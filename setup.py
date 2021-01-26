@@ -9,9 +9,8 @@ setup(
     name='firstline',
     version='0.1',
     py_modules=['firstline'],
-    packages=['firstline'],
+    packages=find_packages(),
     install_requires=[
         'Click',
     ],
-    include_package_data=True,
 )
