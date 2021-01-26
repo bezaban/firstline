@@ -10,7 +10,7 @@ setup(
     version='0.1',
     py_modules=['firstline'],
     packages=find_packages(),
-    package_dir={'firstline'}
+    package_dir={'firstline'},
     install_requires=[
         'Click',
     ],
