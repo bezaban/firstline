@@ -8,7 +8,7 @@ setup(
     url='https://snowcrashed.net',
     name='firstline',
     version='0.1',
-    py_modules=['firstline'],
+    py_modules=['firstline/firstline'],
     packages=find_packages(),
     install_requires=[
         'Click',
