@@ -1,3 +1,5 @@
+import logging
+
 def setuplog(logname, debug=False):
     """Initializes logging"""
 
