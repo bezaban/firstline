@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import os
 import sys
 import logging
@@ -9,6 +8,7 @@ import logging
 from pathlib import Path
 
 class ConfigHandler: 
+
 
     def __init__(self, configfile, default_config=None, interactive=False):
 
