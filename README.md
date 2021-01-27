@@ -15,11 +15,15 @@ Collection of reusable functions
 
 ## usage
 
+Helper classes at top level
+Standalone functions in helpers.* 
+
+
 ```
 import firstline as fl
 
-log = fl.log.setuplog(__package__, debug=debug)
+log = fl.helpers.setuplog(__package__, debug=debug)
 
-config = fl.confighandler.ConfigHandler('config.json', default_config, interactive)
+config = fl.ConfigHandler('config.json', default_config, interactive)
 
 ```
