@@ -1,2 +1,2 @@
-import .helpers 
+import helpers 
 from .confighandler import ConfigHandler
