@@ -1,4 +1,5 @@
 import logging
+import os.path
 
 def setuplog(logname, debug=False):
     """Initializes logging"""
@@ -7,7 +8,12 @@ def setuplog(logname, debug=False):
 
     formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
 
-    filehandler = logging.FileHandler(logname.split('.')[0]+'.log')
+
+    logfile = logname.split('.')[0]+'.log'
+    if os.path.isdir('log'):
+        logfile = 'log/'+logfile
+
+    filehandler = logging.FileHandler(logfile)
     filehandler.setFormatter(formatter)
 
     log.addHandler(filehandler)
