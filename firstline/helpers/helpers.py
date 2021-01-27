@@ -11,7 +11,7 @@ def setuplog(logname, debug=False):
 
     logfile = logname.split('.')[0]+'.log'
     if os.path.isdir('log'):
-        logfile = 'log/'+logfile
+        logfile = 'log/{0}'.format(logfile)
 
     filehandler = logging.FileHandler(logfile)
     filehandler.setFormatter(formatter)

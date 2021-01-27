@@ -1,6 +1,7 @@
 # firstline 
 
-Collection of reusable functions
+Opinionated collection of reusable functions and classes
+Probably not useful 
 
 ## setup.py 
 ```    

@@ -14,6 +14,8 @@ class ConfigHandler:
 
         self.log = logging.getLogger()
         self.configfile = configfile
+        if os.path.isdir('conf'):
+            self.configfile = 'conf/{0}'.format(self.configfile)
 
         if not self.__config_exists(configfile):
             if interactive:
