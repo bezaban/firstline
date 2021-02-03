@@ -59,7 +59,8 @@ class ConfigHandler:
 
         # Some sort of default config
         #hostname = os.uname()[1]
-        config = { **default_config, **logging_config }
+        config = default_config
+        config['logging'] = logging_config
 
         return config
 
@@ -67,7 +68,8 @@ class ConfigHandler:
         config = {}
         for key, value in default_config.items():
                 config[key] = click.prompt('Enter value for ' + key, default=value)
-        return { **config, **logging_config }
+        config['logging'] = logging_config
+        return config
 
     def get_hostname(self):
         return self.config['hostname']
