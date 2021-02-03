@@ -15,6 +15,7 @@ class ConfigHandler:
             self.configfile = 'conf/{0}'.format(self.configfile)
 
         logging_config = {
+            'version': 1,
             'formatters': {
                     'standard': {
                         'format': '[%(asctime)s] [%(levelname)s] %(message)s',
