@@ -11,7 +11,7 @@ class ConfigHandler:
 
         self.configfile = configfile
  
-       if os.path.isdir('conf'):
+        if os.path.isdir('conf'):
             self.configfile = 'conf/{0}'.format(self.configfile)
 
         logging_config = {
