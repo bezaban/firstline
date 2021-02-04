@@ -27,6 +27,12 @@ class ConfigHandler:
                 'default': { 
                     'level': 'INFO',
                     'formatter': 'standard',
+                    'class': 'logging.FileHandler',
+                    'file': 'test.log' 
+                    },
+                'debug': { 
+                    'level': 'DEBUG',
+                    'formatter': 'standard',
                     'class': 'logging.StreamHandler',
                     'stream': 'ext://sys.stdout',  # Default is stderr
                     }
