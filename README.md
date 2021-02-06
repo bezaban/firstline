@@ -10,7 +10,7 @@ Probably not useful
     ],
 
     dependency_links=[
-        'http://github.com/bezaban/firstline/tarball/master#egg=firstline'
+        'http://github.com/bezaban/firstline/tarball/v0.2#egg=firstline'
     ]
 ```
 
@@ -24,7 +24,9 @@ Standalone functions in helpers.*
 ```
 import firstline as fl
 
-log = fl.helpers.setuplog(__package__, debug=debug)
+LOGGING_CONFIG=fl.helpers.getlogconfig('logfile.log', debug)
+logging.config.dictConfig(LOGGING_CONFIG)
+log = logging.getLogger()
 
 config = fl.ConfigHandler('config.json', default_config, interactive)
 
