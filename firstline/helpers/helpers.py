@@ -47,8 +47,8 @@ def getlogconfig():
                 'level': 'INFO',
                 'formatter': 'standard',
                 'class': 'logging.FileHandler',
-                'file': 'test.log',
-                'mode': 'a'
+                'filename': 'test.log',
+                'mode': 'a',
             },
             'debug': { 
                 'level': 'DEBUG',
