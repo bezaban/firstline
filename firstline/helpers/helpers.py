@@ -1,34 +1,47 @@
-import logging
 import os.path
 
-def setuplog(logname, debug=False):
-    """Initializes logging"""
+def getlogconfig(filename, debug=False):
 
-    log = logging.getLogger()
-
-    formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s', '%Y-%m-%d %H:%M:%S')
-
-
-    logfile = logname.split('.')[0]+'.log'
     if os.path.isdir('log'):
-        logfile = 'log/{0}'.format(logfile)
+        filename = 'log/{0}'.format(filename)
 
-    filehandler = logging.FileHandler(logfile)
-    filehandler.setFormatter(formatter)
+    logging_config = {
+        'version': 1,
+        'formatters': {
+            'standard': {
+                'format': '[%(asctime)s] [%(levelname)s] %(message)s',
+                'datefmt': '%Y-%m-%d %H:%M:%S'
+            }
+        },
 
-    log.addHandler(filehandler)
-    log.setLevel(logging.INFO)
+        'handlers': {
+            'default': { 
+                'level': 'INFO',
+                'formatter': 'standard',
+                'class': 'logging.FileHandler',
+                'filename': filename,
+                'mode': 'a',
+            },
+            'debug': { 
+                'level': 'DEBUG',
+                'formatter': 'standard',
+                'class': 'logging.StreamHandler',
+                'stream': 'ext://sys.stdout'
+            }
+        },
+        'loggers': { 
+            '': {  # root logger
+                'handlers': ['default'],
+                'level': 'INFO',
+                'propagate': False
+            }
+        }
+    }
 
     if debug:
-        
-        streamhandler = logging.StreamHandler()
-        streamhandler.setFormatter(formatter)
-        
-        streamhandler.setLevel(logging.DEBUG)
+        logging_config['loggers']['']['handlers'] = ['default', 'debug']
+        logging_config['handlers']['default']['level'] = 'DEBUG' 
+        logging_config['loggers']['']['level'] = 'DEBUG' 
 
-        log.addHandler(streamhandler)
-        log.setLevel(logging.DEBUG)
-        log.debug('Debug logging: %s', debug)
-
-    return log
+    return logging_config
 
