@@ -15,5 +15,10 @@ class test_firstline(unittest.TestCase):
         log.info('Testing info log level')
         log.debug('Testing debug log level')
 
+    def test_pidfile(self):
+        pidfile = firstline.Pidfile('test.pid')
+        print('PID: ', pidfile.getpid())
+        pidfile.remove()         
+
 if __name__ == '__main__':
     unittest.main()
