@@ -14,38 +14,6 @@ class ConfigHandler:
         if os.path.isdir('conf'):
             self.configfile = 'conf/{0}'.format(self.configfile)
 
-        logging_config = {
-            'version': 1,
-            'formatters': {
-                    'standard': {
-                        'format': '[%(asctime)s] [%(levelname)s] %(message)s',
-                        'datefmt': '%Y-%m-%d %H:%M:%S'
-                        }
-                    },
-
-            'handlers': {
-                'default': { 
-                    'level': 'INFO',
-                    'formatter': 'standard',
-                    'class': 'logging.FileHandler',
-                    'file': 'test.log' 
-                    },
-                'debug': { 
-                    'level': 'DEBUG',
-                    'formatter': 'standard',
-                    'class': 'logging.StreamHandler',
-                    'stream': 'ext://sys.stdout',  # Default is stderr
-                    }
-                },
-                'loggers': { 
-                    '': {  # root logger
-                    'handlers': ['default'],
-                    'level': 'WARNING',
-                    'propagate': False
-                    }
-                }
-            }
-
         if not self.__config_exists(configfile):
             if interactive:
                 self.config = self.__create_default_config_interactive(logging_config, default_config)
