@@ -64,4 +64,5 @@ def getlogconfig():
             }
         }
     }
+    return logging_config
 
