@@ -16,7 +16,7 @@ class ConfigHandler:
         if os.path.isdir('conf'):
             self.configfile = 'conf/{0}'.format(self.configfile)
 
-        if not self.__config_exists(configfile):
+        if not self.__config_exists(self.configfile):
             if interactive:
                 self.config = self.__create_default_config_interactive(default_config)
             else:
