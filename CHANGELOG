@@ -1,0 +1,13 @@
+
+# v0.3
+* Added pidfile handling
+* Added basic logging
+* Introducing CHANGELOG
+
+# v0.2
+* Reworked logging config to dictConfig
+* Loggers now instantiated in main packages
+* Added basic tests
+
+# v0.1
+* Initial release
