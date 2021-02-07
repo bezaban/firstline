@@ -3,12 +3,14 @@ import os
 import sys
 import json
 import click
+import logging
 from pathlib import Path
 
 class ConfigHandler: 
 
     def __init__(self, configfile, default_config=None, interactive=False):
 
+        self.log = logging.getLogger()
         self.configfile = configfile
  
         if os.path.isdir('conf'):
@@ -25,8 +27,10 @@ class ConfigHandler:
 
     def __config_exists(self, configfile):
         if not os.path.exists(configfile):
+            self.log.warning('Config file %s not found' % configfile)
             return False 
         else:
+            self.log.info('Found config file %s' % configfile)
             return True
 
     # Todo: wizardify to replace 
@@ -77,7 +81,7 @@ class ConfigHandler:
             return config
 
     def __write(self):
-
+        self.log.info("Writing configfile %s" % self.configfile)
         with open(self.configfile, 'w') as outfile:
             json.dump(self.config, outfile, indent=4)
             outfile.close()
