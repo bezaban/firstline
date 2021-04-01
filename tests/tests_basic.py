@@ -1,5 +1,5 @@
 import unittest
-import firstline 
+import src as firstline
 
 class test_firstline(unittest.TestCase):
     
