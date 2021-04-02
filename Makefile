@@ -27,7 +27,10 @@ test: dev
 doc: dev
 	${PYTHON} -m pdoc firstline -o docs/
 
-clean: clean-venv clean-dist clean-pyc
+clean: clean-venv clean-dist clean-pyc clean-tests
+
+clean-tests:
+	rm -f tests/test.log
 
 clean-venv:
 	rm -rf $(VENV_NAME) 
