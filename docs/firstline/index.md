@@ -3,6 +3,6 @@ Module firstline
 
 Sub-modules
 -----------
-* firstline.confighandler
+* [firstline.confighandler](confighandler.md)
 * firstline.helpers
 * firstline.pidfile
