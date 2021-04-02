@@ -25,7 +25,7 @@ test: dev
 	 ${PYTHON} -m unittest discover tests/
 
 doc: dev
-	${PYTHON} -m pdoc firstline -o docs/
+	${PYTHON} -m pdoc firstline -o docs/ --force
 
 clean: clean-venv clean-dist clean-pyc clean-tests
 
