@@ -9,14 +9,14 @@ class test_firstline(unittest.TestCase):
     def test_configure_log_from_config(self):
         import logging
         from logging.config import dictConfig
-        logging.config.dictConfig(firstline.helpers.getlogconfig('test.log', True))
+        logging.config.dictConfig(firstline.helpers.getlogconfig('tests/test.log', True))
         log = logging.getLogger() 
         
         log.info('Testing info log level')
         log.debug('Testing debug log level')
 
     def test_pidfile(self):
-        pidfile = firstline.Pidfile('test.pid')
+        pidfile = firstline.Pidfile('tests/test.pid')
         print('PID: ', pidfile.getpid())
         pidfile.remove()         
 
