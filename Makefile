@@ -10,15 +10,15 @@ help:
 	@echo Targets: venv, clean-venv, lint, clean, test
 
 venv: $(VENV_NAME)/bin/activate
-$(VENV_NAME)/bin/activate: src/setup.py
+$(VENV_NAME)/bin/activate: setup.py
 	test -d $(VENV_NAME) || virtualenv -p python3 $(VENV_NAME)
 	${PYTHON} -m pip install --upgrade pip
-	${PYTHON} src/setup.py develop
+	${PYTHON} setup.py develop
 	touch $(VENV_NAME)/bin/activate
 
 dev: venv $(VENV_NAME)/.dev
 $(VENV_NAME)/.dev:
-	${PYTHON} -m pip install -e src/.[dev]
+	${PYTHON} -m pip install -e .[dev]
 	touch $(VENV_NAME)/.dev
 
 test: dev

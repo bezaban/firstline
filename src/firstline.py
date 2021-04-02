@@ -1,3 +1,0 @@
-
-class firstline:
-    pass
