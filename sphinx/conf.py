@@ -13,7 +13,6 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../firstline'))
-print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
@@ -21,6 +20,7 @@ project = 'firstline'
 copyright = '2021, Paul Bergene'
 author = 'Paul Bergene'
 
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
@@ -30,10 +30,14 @@ author = 'Paul Bergene'
 extensions = [
             #'sphinx_md',
             #'recommonmark',
-            'sphinxcontrib.restbuilder',
+            'sphinx_rst_builder',
             'sphinx.ext.autosectionlabel',
+            'sphinx.ext.autosummary',
             'sphinx.ext.autodoc'
 ]
+
+autodoc_default_flags = ['members']
+autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
