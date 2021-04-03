@@ -1,18 +1,21 @@
+.. firstline documentation master file, created by
+   sphinx-quickstart on Sat Apr  3 22:58:17 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-firstline
-*********
+Welcome to firstline's documentation!
+=====================================
 
-*  `firstline package <firstline.rst>`_
-   *  `Subpackages <firstline.rst#subpackages>`_
-      *  `firstline.helpers package <firstline.helpers.rst>`_
-         *  `Submodules <firstline.helpers.rst#submodules>`_
-         *  `firstline.helpers.helpers module
-            <firstline.helpers.rst#module-firstline.helpers.helpers>`_
-         *  `Module contents
-            <firstline.helpers.rst#module-firstline.helpers>`_
-   *  `Submodules <firstline.rst#submodules>`_
-   *  `firstline.confighandler module
-      <firstline.rst#module-firstline.confighandler>`_
-   *  `firstline.pidfile module
-      <firstline.rst#module-firstline.pidfile>`_
-   *  `Module contents <firstline.rst#module-firstline>`_
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+
+   firstline
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
