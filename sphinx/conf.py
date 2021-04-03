@@ -20,7 +20,7 @@ project = 'firstline'
 copyright = '2021, Paul Bergene'
 author = 'Paul Bergene'
 
-master_doc = 'index'
+#master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
@@ -30,14 +30,15 @@ master_doc = 'index'
 extensions = [
             #'sphinx_md',
             #'recommonmark',
-            'sphinx_rst_builder',
+            #'sphinx_rst_builder',
             'sphinx.ext.autosectionlabel',
-            'sphinx.ext.autosummary',
-            'sphinx.ext.autodoc'
+            #'sphinx.ext.autosummary',
+            'sphinx.ext.autodoc',
+            'sphinxcontrib.restbuilder' 
 ]
 
-autodoc_default_flags = ['members']
-autosummary_generate = True
+#autodoc_default_flags = ['members']
+#autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -45,7 +46,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'apidoc']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'docs']
 
 
 # -- Options for HTML output -------------------------------------------------

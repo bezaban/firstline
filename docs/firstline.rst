@@ -6,10 +6,12 @@ firstline package
 Subpackages
 ===========
 
-* `firstline.helpers package <firstline.helpers.rst>`_
-  * `Submodules <firstline.helpers.rst#submodules>`_
-  * `firstline.helpers.helpers module <firstline.helpers.rst#module-firstline.helpers.helpers>`_
-  * `Module contents <firstline.helpers.rst#module-firstline.helpers>`_
+*  `firstline.helpers package <firstline.helpers.rst>`_
+   *  `Submodules <firstline.helpers.rst#submodules>`_
+   *  `firstline.helpers.helpers module
+      <firstline.helpers.rst#module-firstline.helpers.helpers>`_
+   *  `Module contents
+      <firstline.helpers.rst#module-firstline.helpers>`_
 
 Submodules
 ==========
@@ -18,7 +20,8 @@ Submodules
 firstline.confighandler module
 ==============================
 
-**class firstline.confighandler.ConfigHandler(configfile, default_config=None, interactive=False)**
+**class firstline.confighandler.ConfigHandler(configfile,
+default_config=None, interactive=False)**
 
    Bases: ``object``
 

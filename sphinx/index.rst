@@ -1,29 +1,7 @@
-.. firstline documentation master file, created by
-   sphinx-quickstart on Sat Apr  3 18:31:33 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to firstline's documentation!
-=====================================
+firstline
+=========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-    modules
+   :maxdepth: 4
 
-.. autosummary::
-     :toctree: stubs
-
-.. autosummary::
-   :toctree: _autosummary
-   :recursive:
-
-   firstline 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   firstline

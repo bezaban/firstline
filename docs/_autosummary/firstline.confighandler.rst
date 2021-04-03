@@ -1,5 +1,0 @@
-
-firstline.confighandler
-***********************
-
--[ Classes ]-
