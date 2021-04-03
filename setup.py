@@ -13,7 +13,10 @@ setup(
 
     extras_require={
         'dev': [
-            'pdoc3',
+            #'sphinx-markdown-builder',
+            #'sphinx_md',
+            #'recommonmark',
+            'sphinxcontrib-restbuilder',
             'sphinx',
             'pylint'
          ]
