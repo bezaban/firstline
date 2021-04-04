@@ -19,6 +19,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+sphinx/_build/
 
 # Log files 
 pip-log.txt
