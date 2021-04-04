@@ -11,8 +11,7 @@ Welcome to firstline's documentation!
    :caption: Contents:
 
    firstline
-   setup
-
+   modules
 
 Indices and tables
 ==================
