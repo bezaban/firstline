@@ -26,7 +26,7 @@
                      module\ `¶ <#module-firstline.helpers.helpers>`__
                      :name: firstline.helpers.helpers-module
 
-                  ``firstline.helpers.helpers.``\ ``getlogconfig``\ (\ *filename*, *debug=False*\ )\ `[source] <_modules/firstline/helpers/helpers.md#getlogconfig>`__\ `¶ <#firstline.helpers.helpers.getlogconfig>`__
+                  ``firstline.helpers.helpers.``\ ``getlogconfig``\ (\ *filename*, *debug=False*\ )\ `[source] <_modules/firstline/helpers/helpers.rst#getlogconfig>`__\ `¶ <#firstline.helpers.helpers.getlogconfig>`__
 
                .. container:: section
                   :name: module-firstline.helpers
@@ -39,7 +39,7 @@
 
       .. container:: sphinxsidebarwrapper
 
-         .. rubric:: `firstline <index.md>`__
+         .. rubric:: `firstline <index.rst>`__
             :name: firstline
             :class: logo
 
@@ -48,9 +48,9 @@
 
          Contents:
 
-         -  `firstline package <firstline.md>`__
+         -  `firstline package <firstline.rst>`__
 
-            -  `Subpackages <firstline.md#subpackages>`__
+            -  `Subpackages <firstline.rst#subpackages>`__
 
                -  `firstline.helpers package <#>`__
 
@@ -59,39 +59,39 @@
                      module <#module-firstline.helpers.helpers>`__
                   -  `Module contents <#module-firstline.helpers>`__
 
-            -  `Submodules <firstline.md#submodules>`__
+            -  `Submodules <firstline.rst#submodules>`__
             -  `firstline.confighandler
-               module <firstline.md#module-firstline.confighandler>`__
+               module <firstline.rst#module-firstline.confighandler>`__
             -  `firstline.pidfile
-               module <firstline.md#module-firstline.pidfile>`__
-            -  `Module contents <firstline.md#module-firstline>`__
+               module <firstline.rst#module-firstline.pidfile>`__
+            -  `Module contents <firstline.rst#module-firstline>`__
 
-         -  `firstline <modules.md>`__
+         -  `firstline <modules.rst>`__
 
-            -  `firstline package <firstline.md>`__
+            -  `firstline package <firstline.rst>`__
 
-               -  `Subpackages <firstline.md#subpackages>`__
+               -  `Subpackages <firstline.rst#subpackages>`__
 
                   -  `firstline.helpers package <#>`__
 
-               -  `Submodules <firstline.md#submodules>`__
+               -  `Submodules <firstline.rst#submodules>`__
                -  `firstline.confighandler
-                  module <firstline.md#module-firstline.confighandler>`__
+                  module <firstline.rst#module-firstline.confighandler>`__
                -  `firstline.pidfile
-                  module <firstline.md#module-firstline.pidfile>`__
-               -  `Module contents <firstline.md#module-firstline>`__
+                  module <firstline.rst#module-firstline.pidfile>`__
+               -  `Module contents <firstline.rst#module-firstline>`__
 
          .. container:: relations
 
             .. rubric:: Related Topics
                :name: related-topics
 
-            -  `Documentation overview <index.md>`__
+            -  `Documentation overview <index.rst>`__
 
-               -  `firstline package <firstline.md>`__
+               -  `firstline package <firstline.rst>`__
 
-                  -  Previous: `firstline package <firstline.md>`__
-                  -  Next: `firstline <modules.md>`__
+                  -  Previous: `firstline package <firstline.rst>`__
+                  -  Next: `firstline <modules.rst>`__
 
          .. container::
             :name: searchbox

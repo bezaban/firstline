@@ -9,15 +9,15 @@
             .. rubric:: All modules for which code is available
                :name: all-modules-for-which-code-is-available
 
-            -  `firstline.confighandler <firstline/confighandler.md>`__
-            -  `firstline.helpers.helpers <firstline/helpers/helpers.md>`__
-            -  `firstline.pidfile <firstline/pidfile.md>`__
+            -  `firstline.confighandler <firstline/confighandler.rst>`__
+            -  `firstline.helpers.helpers <firstline/helpers/helpers.rst>`__
+            -  `firstline.pidfile <firstline/pidfile.rst>`__
 
    .. container:: sphinxsidebar
 
       .. container:: sphinxsidebarwrapper
 
-         .. rubric:: `firstline <../index.md>`__
+         .. rubric:: `firstline <../index.rst>`__
             :name: firstline
             :class: logo
 
@@ -26,15 +26,15 @@
 
          Contents:
 
-         -  `firstline package <../firstline.md>`__
-         -  `firstline <../modules.md>`__
+         -  `firstline package <../firstline.rst>`__
+         -  `firstline <../modules.rst>`__
 
          .. container:: relations
 
             .. rubric:: Related Topics
                :name: related-topics
 
-            -  `Documentation overview <../index.md>`__
+            -  `Documentation overview <../index.rst>`__
 
          .. container::
             :name: searchbox

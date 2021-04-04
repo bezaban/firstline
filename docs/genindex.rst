@@ -19,8 +19,8 @@
 
             +-----------------------------------------------------------------------+
             | -  `add_path_entry() (firstline.confighandler.ConfigHandler           |
-            |    method) <                                                          |
-            | firstline.md#firstline.confighandler.ConfigHandler.add_path_entry>`__ |
+            |    method) <f                                                         |
+            | irstline.rst#firstline.confighandler.ConfigHandler.add_path_entry>`__ |
             +-----------------------------------------------------------------------+
 
             .. rubric:: C
@@ -28,8 +28,8 @@
 
             +-----------------------------------------------------------------------+
             | -  `ConfigHandler (class in                                           |
-            |    firstline.c                                                        |
-            | onfighandler) <firstline.md#firstline.confighandler.ConfigHandler>`__ |
+            |    firstline.co                                                       |
+            | nfighandler) <firstline.rst#firstline.confighandler.ConfigHandler>`__ |
             +-----------------------------------------------------------------------+
 
             .. rubric:: F
@@ -38,18 +38,18 @@
             +-----------------------------------+-----------------------------------+
             | -  firstline                      | -  firstline.helpers.helpers      |
             |                                   |                                   |
-            |    -  `module <                   |    -                              |
-            | firstline.md#module-firstline>`__ | `module <firstline.helpers.md#mod |
+            |    -  `module <f                  |    -  `                           |
+            | irstline.rst#module-firstline>`__ | module <firstline.helpers.rst#mod |
             |                                   | ule-firstline.helpers.helpers>`__ |
             | -  firstline.confighandler        |                                   |
             |                                   | -  firstline.pidfile              |
-            |    -  `module <firstline.md#m     |                                   |
-            | odule-firstline.confighandler>`__ |    -  `module <firstlin           |
-            |                                   | e.md#module-firstline.pidfile>`__ |
+            |    -  `module <firstline.rst#m    |                                   |
+            | odule-firstline.confighandler>`__ |    -  `module <firstline          |
+            |                                   | .rst#module-firstline.pidfile>`__ |
             | -  firstline.helpers              |                                   |
             |                                   |                                   |
-            |    -  `module <firstline.helper   |                                   |
-            | s.md#module-firstline.helpers>`__ |                                   |
+            |    -  `module <firstline.helpers  |                                   |
+            | .rst#module-firstline.helpers>`__ |                                   |
             +-----------------------------------+-----------------------------------+
 
             .. rubric:: G
@@ -57,16 +57,16 @@
 
             +-----------------------------------+-----------------------------------+
             | -  `get_hostname()                | -  `getlogconfig() (in module     |
-            |    (firs                          |    firstline.helpers.helpers      |
-            | tline.confighandler.ConfigHandler | ) <firstline.helpers.md#firstline |
-            |    method) <f                     | .helpers.helpers.getlogconfig>`__ |
-            | irstline.md#firstline.confighandl | -  `getpid()                      |
+            |    (firs                          |    firstline.helpers.helpers)     |
+            | tline.confighandler.ConfigHandler |  <firstline.helpers.rst#firstline |
+            |    method) <fi                    | .helpers.helpers.getlogconfig>`__ |
+            | rstline.rst#firstline.confighandl | -  `getpid()                      |
             | er.ConfigHandler.get_hostname>`__ |    (firstline.pidfile.Pidfile     |
-            | -  `get_kv()                      |    method) <firstline.md#fir      |
+            | -  `get_kv()                      |    method) <firstline.rst#fir     |
             |    (firs                          | stline.pidfile.Pidfile.getpid>`__ |
             | tline.confighandler.ConfigHandler |                                   |
-            |    meth                           |                                   |
-            | od) <firstline.md#firstline.confi |                                   |
+            |    metho                          |                                   |
+            | d) <firstline.rst#firstline.confi |                                   |
             | ghandler.ConfigHandler.get_kv>`__ |                                   |
             +-----------------------------------+-----------------------------------+
 
@@ -76,14 +76,14 @@
             +-----------------------------------------------------------------------+
             | -  module                                                             |
             |                                                                       |
-            |    -  `firstline <firstline.md#module-firstline>`__                   |
-            |    -  `fir                                                            |
-            | stline.confighandler <firstline.md#module-firstline.confighandler>`__ |
-            |    -                                                                  |
-            | `firstline.helpers <firstline.helpers.md#module-firstline.helpers>`__ |
-            |    -  `firstline.helpe                                                |
-            | rs.helpers <firstline.helpers.md#module-firstline.helpers.helpers>`__ |
-            |    -  `firstline.pidfile <firstline.md#module-firstline.pidfile>`__   |
+            |    -  `firstline <firstline.rst#module-firstline>`__                  |
+            |    -  `firs                                                           |
+            | tline.confighandler <firstline.rst#module-firstline.confighandler>`__ |
+            |    -  `                                                               |
+            | firstline.helpers <firstline.helpers.rst#module-firstline.helpers>`__ |
+            |    -  `firstline.helper                                               |
+            | s.helpers <firstline.helpers.rst#module-firstline.helpers.helpers>`__ |
+            |    -  `firstline.pidfile <firstline.rst#module-firstline.pidfile>`__  |
             +-----------------------------------------------------------------------+
 
             .. rubric:: P
@@ -91,7 +91,7 @@
 
             +-----------------------------------------------------------------------+
             | -  `Pidfile (class in                                                 |
-            |    firstline.pidfile) <firstline.md#firstline.pidfile.Pidfile>`__     |
+            |    firstline.pidfile) <firstline.rst#firstline.pidfile.Pidfile>`__    |
             +-----------------------------------------------------------------------+
 
             .. rubric:: R
@@ -99,7 +99,7 @@
 
             +-----------------------------------------------------------------------+
             | -  `remove() (firstline.pidfile.Pidfile                               |
-            |    method) <firstline.md#firstline.pidfile.Pidfile.remove>`__         |
+            |    method) <firstline.rst#firstline.pidfile.Pidfile.remove>`__        |
             +-----------------------------------------------------------------------+
 
             .. rubric:: S
@@ -109,14 +109,14 @@
             | -  `set_kv()                      | -  `set_list()                    |
             |    (firs                          |    (firs                          |
             | tline.confighandler.ConfigHandler | tline.confighandler.ConfigHandler |
-            |    meth                           |    method                         |
-            | od) <firstline.md#firstline.confi | ) <firstline.md#firstline.configh |
+            |    metho                          |    method)                        |
+            | d) <firstline.rst#firstline.confi |  <firstline.rst#firstline.configh |
             | ghandler.ConfigHandler.set_kv>`__ | andler.ConfigHandler.set_list>`__ |
             |                                   | -  `set_list_item()               |
             |                                   |    (firs                          |
             |                                   | tline.confighandler.ConfigHandler |
-            |                                   |    method) <fi                    |
-            |                                   | rstline.md#firstline.confighandle |
+            |                                   |    method) <fir                   |
+            |                                   | stline.rst#firstline.confighandle |
             |                                   | r.ConfigHandler.set_list_item>`__ |
             +-----------------------------------+-----------------------------------+
 
@@ -124,7 +124,7 @@
 
       .. container:: sphinxsidebarwrapper
 
-         .. rubric:: `firstline <index.md>`__
+         .. rubric:: `firstline <index.rst>`__
             :name: firstline
             :class: logo
 
@@ -133,15 +133,15 @@
 
          Contents:
 
-         -  `firstline package <firstline.md>`__
-         -  `firstline <modules.md>`__
+         -  `firstline package <firstline.rst>`__
+         -  `firstline <modules.rst>`__
 
          .. container:: relations
 
             .. rubric:: Related Topics
                :name: related-topics
 
-            -  `Documentation overview <index.md>`__
+            -  `Documentation overview <index.rst>`__
 
          .. container::
             :name: searchbox

@@ -14,32 +14,32 @@
 
                .. container:: toctree-wrapper compound
 
-                  -  `firstline package <firstline.md>`__
+                  -  `firstline package <firstline.rst>`__
 
-                     -  `Subpackages <firstline.md#subpackages>`__
+                     -  `Subpackages <firstline.rst#subpackages>`__
 
                         -  `firstline.helpers
-                           package <firstline.helpers.md>`__
+                           package <firstline.helpers.rst>`__
 
-                           -  `Submodules <firstline.helpers.md#submodules>`__
+                           -  `Submodules <firstline.helpers.rst#submodules>`__
                            -  `firstline.helpers.helpers
-                              module <firstline.helpers.md#module-firstline.helpers.helpers>`__
+                              module <firstline.helpers.rst#module-firstline.helpers.helpers>`__
                            -  `Module
-                              contents <firstline.helpers.md#module-firstline.helpers>`__
+                              contents <firstline.helpers.rst#module-firstline.helpers>`__
 
-                     -  `Submodules <firstline.md#submodules>`__
+                     -  `Submodules <firstline.rst#submodules>`__
                      -  `firstline.confighandler
-                        module <firstline.md#module-firstline.confighandler>`__
+                        module <firstline.rst#module-firstline.confighandler>`__
                      -  `firstline.pidfile
-                        module <firstline.md#module-firstline.pidfile>`__
+                        module <firstline.rst#module-firstline.pidfile>`__
                      -  `Module
-                        contents <firstline.md#module-firstline>`__
+                        contents <firstline.rst#module-firstline>`__
 
    .. container:: sphinxsidebar
 
       .. container:: sphinxsidebarwrapper
 
-         .. rubric:: `firstline <index.md>`__
+         .. rubric:: `firstline <index.rst>`__
             :name: firstline-1
             :class: logo
 
@@ -48,20 +48,20 @@
 
          Contents:
 
-         -  `firstline package <firstline.md>`__
+         -  `firstline package <firstline.rst>`__
          -  `firstline <#>`__
 
-            -  `firstline package <firstline.md>`__
+            -  `firstline package <firstline.rst>`__
 
          .. container:: relations
 
             .. rubric:: Related Topics
                :name: related-topics
 
-            -  `Documentation overview <index.md>`__
+            -  `Documentation overview <index.rst>`__
 
                -  Previous: `firstline.helpers
-                  package <firstline.helpers.md>`__
+                  package <firstline.helpers.rst>`__
 
          .. container::
             :name: searchbox
