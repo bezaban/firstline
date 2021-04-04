@@ -20,6 +20,8 @@ var/
 .installed.cfg
 *.egg
 sphinx/_build/
+sphinx/*.rst
+!sphinx/index.rst
 
 # Log files 
 pip-log.txt
