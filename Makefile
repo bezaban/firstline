@@ -32,7 +32,7 @@ doc: dev
 	rm -rf docs/*
 	${SPHINX-APIDOC} -o sphinx/ firstline/ --force
 	${SPHINX-BUILD} sphinx/ sphinx/_build/
-	find sphinx/_build/ -name "*.html" -type f -exec sh -c  'pandoc --lua-filter=sphinx/pandoc/links-to-markdown.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.md)"' {} \;
+	find sphinx/_build/ -name "*.html" -type f -exec sh -c  'pandoc --lua-filter=sphinx/pandoc/links-to-markdown.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.rst)"' {} \;
 
 clean: clean-venv clean-dist clean-pyc clean-tests clean-doc
 
