@@ -4,6 +4,10 @@
 VENV_NAME=venv
 VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
 PYTHON=${VENV_NAME}/bin/python
+SPHINX-APIDOC=${VENV_NAME}/bin/sphinx-apidoc
+SPHINX-BUILD=${VENV_NAME}/bin/sphinx-build
+
+SHELL:=/bin/bash
 
 .DEFAULT: help
 help: 
@@ -25,9 +29,17 @@ test: dev
 	 ${PYTHON} -m unittest discover tests/
 
 doc: dev
-	${PYTHON} -m pdoc firstline -o docs/ --force
+	rm -rf docs/*
+	${SPHINX-APIDOC} -o sphinx/ firstline/ --force
+	${SPHINX-BUILD} sphinx/ sphinx/_build/
+	find sphinx/_build/ -name "*.html" -type f -exec sh -c  'pandoc --lua-filter=sphinx/pandoc/links-to-markdown.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.md)"' {} \;
 
-clean: clean-venv clean-dist clean-pyc clean-tests
+clean: clean-venv clean-dist clean-pyc clean-tests clean-doc
+
+clean-doc:
+	rm -rf sphinx/_build/*
+	rm -rf docs/*
+	find sphinx/ -name *.rst ! -name index.rst -type f -exec rm {} \;
 
 clean-tests:
 	rm -f tests/test.log
