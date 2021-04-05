@@ -32,4 +32,6 @@
 
 </div>
 
+-----
+
 ©2021 Paul Bergene. Powered by [Sphinx](http://sphinx-doc.org/)
