@@ -30,7 +30,7 @@ test: dev
 
 doc: dev
 	rm -rf docs/*
-	${SPHINX-APIDOC} -o sphinx/ firstline/ --force -T -M
+	${SPHINX-APIDOC} -o sphinx/ firstline/ --force -T -M -t sphinx/_templates
 	rm -rf sphinx/modules.rst
 	${SPHINX-BUILD} sphinx/ sphinx/_build/ 
 	find sphinx/_build/ -name "*.html" ! -name search.html -type f -exec sh -c  'pandoc -t gfm --lua-filter=sphinx/pandoc/links-to-markdown.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.md)"' {} \;
