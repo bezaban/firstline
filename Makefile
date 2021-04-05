@@ -40,6 +40,7 @@ clean: clean-venv clean-dist clean-pyc clean-tests clean-doc
 clean-doc:
 	rm -rf sphinx/_build/*
 	rm -rf docs/*
+	rm -rf docs/.doctrees
 	find sphinx/ -name *.rst ! -name index.rst -type f -exec rm {} \;
 
 clean-tests:
