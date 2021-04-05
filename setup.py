@@ -16,8 +16,7 @@ setup(
             #'sphinx-markdown-builder',
             #'sphinx_md',
             #'recommonmark',
-            #'sphinxcontrib-restbuilder',
-            #'sphinx-rst-builder',
+            'sphinxcontrib-restbuilder',
             'sphinx',
             'pylint'
          ]

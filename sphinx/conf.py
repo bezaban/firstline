@@ -29,9 +29,33 @@ author = 'Author'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinxcontrib.restbuilder',
+#    'sphinx_markdown_builder',
+#    'recommonmark',
 #    'sphinx.ext.viewcode',
 #    'sphinx.ext.todo',
 ]
+
+
+# reconnmark testing
+#from recommonmark.transform import AutoStructify
+#
+#github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+#def setup(app):
+#    app.add_config_value('recommonmark_config', {
+#            'url_resolver': lambda url: github_doc_root + url,
+#            'auto_toc_tree_section': 'Contents',
+#            }, True)
+#    app.add_transform(AutoStructify)
+#
+#
+#from recommonmark.parser import CommonMarkParser
+#
+#source_parsers = {
+#    '.md': CommonMarkParser,
+#}
+#
+#source_suffix = ['.rst', '.md']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -71,4 +95,4 @@ html_static_path = ['_static']
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+#todo_include_todos = True
