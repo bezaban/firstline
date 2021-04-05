@@ -31,15 +31,6 @@
 
 </div>
 
-<div id="indices-and-tables" class="section">
-
-# Indices and tables[¶](#indices-and-tables "Permalink to this headline")
-
-\[[<span class="std std-ref">Index</span>](genindex.md)\]\[[<span class="std std-ref">Module
-Index</span>](py-modindex.md)\]
-
-</div>
-
 </div>
 
 </div>
@@ -50,5 +41,5 @@ Index</span>](py-modindex.md)\]
 
 </div>
 
-©2021, Paul Bergene. | Powered by \[Sphinx
-3.5.3\](http://sphinx-doc.org/)
+\[:ref:\`genindex\`\] \[:ref:\`modindex\`\] ©2021 Paul Bergene. Powered
+by \`Sphinx \`\_

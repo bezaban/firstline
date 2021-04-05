@@ -183,5 +183,5 @@
 
 </div>
 
-©2021, Paul Bergene. | Powered by \[Sphinx
-3.5.3\](http://sphinx-doc.org/)
+\[:ref:\`genindex\`\] \[:ref:\`modindex\`\] ©2021 Paul Bergene. Powered
+by \`Sphinx \`\_
