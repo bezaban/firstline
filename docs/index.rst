@@ -66,8 +66,6 @@
 
                -  `Module Index <py-modindex.rst>`__
 
-               -  `Search Page <search.rst>`__
-
    .. container:: sphinxsidebar
 
       .. container:: sphinxsidebarwrapper
