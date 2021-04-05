@@ -32,6 +32,8 @@
 
 </div>
 
------
+<div class="footer">
 
-©2021 Paul Bergene. Powered by [Sphinx](http://sphinx-doc.org/)
+2021, Paul Bergene | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/)
+
+</div>
