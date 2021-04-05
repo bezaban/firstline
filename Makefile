@@ -31,9 +31,9 @@ test: dev
 doc: dev
 	rm -rf docs/*
 	${SPHINX-APIDOC} -o sphinx/ firstline/ --force
-	#${SPHINX-BUILD} sphinx/ sphinx/_build/ 
-	${SPHINX-BUILD} -b rst sphinx/ docs/ 
-	#find sphinx/_build/ -name "*.html" -type f -exec sh -c  'pandoc --lua-filter=sphinx/pandoc/links-to-rest.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.rst)"' {} \;
+	${SPHINX-BUILD} sphinx/ sphinx/_build/ 
+	#${SPHINX-BUILD} -b rst sphinx/ docs/ 
+	find sphinx/_build/ -name "*.html" -type f -exec sh -c  'pandoc --lua-filter=sphinx/pandoc/links-to-rest.lua  "$${0}" -o "./docs/$$(basename $${0%.html}.rst)"' {} \;
 
 clean: clean-venv clean-dist clean-pyc clean-tests clean-doc
 
