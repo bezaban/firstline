@@ -4,9 +4,9 @@
 
 <div class="body" role="main">
 
-<div id="welcome-to-firstline-s-documentation" class="section">
+<div id="firstline-api-reference" class="section">
 
-# Welcome to firstline’s documentation\![¶](#welcome-to-firstline-s-documentation "Permalink to this headline")
+# firstline API reference[¶](#firstline-api-reference "Permalink to this headline")
 
 <div class="toctree-wrapper compound">
 
@@ -31,9 +31,9 @@
 
 </div>
 
-<div id="indices" class="section">
+<div id="quick-links" class="section">
 
-# Indices[¶](#indices "Permalink to this headline")
+# Quick links[¶](#quick-links "Permalink to this headline")
 
 \[[<span class="std std-ref">Index</span>](genindex.md)\]
 \[[<span class="std std-ref">Module Index</span>](py-modindex.md)\]
@@ -52,6 +52,6 @@
 
 <div class="footer">
 
-2021, Paul Bergene | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/)
+©2021, Paul Bergene | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/)
 
 </div>
