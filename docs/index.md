@@ -8,6 +8,9 @@
 
 # firstline API reference[¶](#firstline-api-reference "Permalink to this headline")
 
+\[[<span class="std std-ref">Index</span>](genindex.md)\]
+\[[<span class="std std-ref">Module Index</span>](py-modindex.md)\]
+
 <div class="toctree-wrapper compound">
 
 <span class="caption-text">Contents:</span>
@@ -28,15 +31,6 @@
       - [Module contents](firstline.md#module-firstline)
 
 </div>
-
-</div>
-
-<div id="quick-links" class="section">
-
-# Quick links[¶](#quick-links "Permalink to this headline")
-
-\[[<span class="std std-ref">Index</span>](genindex.md)\]
-\[[<span class="std std-ref">Module Index</span>](py-modindex.md)\]
 
 </div>
 
