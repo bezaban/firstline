@@ -1,20 +1,12 @@
 <div class="document">
-
 <div class="documentwrapper">
-
 <div class="body" role="main">
-
 # Index
-
 <div class="genindex-jumpbox">
-
 [**A**](#A) | [**C**](#C) | [**F**](#F) | [**G**](#G) | [**M**](#M) |
 [**P**](#P) | [**R**](#R) | [**S**](#S)
-
 </div>
-
 ## A
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -27,9 +19,7 @@
 </tr>
 </tbody>
 </table>
-
 ## C
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -42,9 +32,7 @@
 </tr>
 </tbody>
 </table>
-
 ## F
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -79,9 +67,7 @@
 </tr>
 </tbody>
 </table>
-
 ## G
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -100,9 +86,7 @@
 </tr>
 </tbody>
 </table>
-
 ## M
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -122,9 +106,7 @@
 </tr>
 </tbody>
 </table>
-
 ## P
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -137,9 +119,7 @@
 </tr>
 </tbody>
 </table>
-
 ## R
-
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -152,9 +132,7 @@
 </tr>
 </tbody>
 </table>
-
 ## S
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -172,20 +150,12 @@
 </tr>
 </tbody>
 </table>
-
 </div>
-
 </div>
-
 <div class="clearer">
-
 </div>
-
 </div>
-
 <div class="footer">
-
 ©2021, Author. | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/) &
 [Alabaster 0.7.12](https://github.com/bitprophet/alabaster)
-
 </div>

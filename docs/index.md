@@ -1,17 +1,10 @@
 <div class="document">
-
 <div class="documentwrapper">
-
 <div class="body" role="main">
-
 <div id="welcome-to-firstline-s-documentation" class="section">
-
 # Welcome to firstline’s documentation\![¶](#welcome-to-firstline-s-documentation "Permalink to this headline")
-
 <div class="toctree-wrapper compound">
-
 <span class="caption-text">Contents:</span>
-
   - [firstline package](firstline.md)
       - [Subpackages](firstline.md#subpackages)
           - [firstline.helpers package](firstline.helpers.md)
@@ -26,35 +19,20 @@
       - [firstline.pidfile
         module](firstline.md#module-firstline.pidfile)
       - [Module contents](firstline.md#module-firstline)
-
 </div>
-
 </div>
-
 <div id="indices-and-tables" class="section">
-
 # Indices and tables[¶](#indices-and-tables "Permalink to this headline")
-
   - [<span class="std std-ref">Index</span>](genindex.md)
-
   - [<span class="std std-ref">Module Index</span>](py-modindex.md)
-
 </div>
-
 </div>
-
 </div>
-
 <div class="clearer">
-
 </div>
-
 </div>
-
 <div class="footer">
-
 ©2021, Author. | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/) &
 [Alabaster 0.7.12](https://github.com/bitprophet/alabaster) | [Page
 source](_sources/index.rst.txt)
-
 </div>
