@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'firstline'
-copyright = '2021, Author'
-author = 'Author'
+copyright = '2021, Paul Bergene'
+author = 'Paul Bergene'
 
 
 # -- General configuration ---------------------------------------------------
@@ -78,7 +78,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'basic'
+html_theme = 'alabaster'
+html_sidebars = {
+   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
+   'using/windows': ['windowssidebar.html', 'searchbox.html'],
+}
 html_theme_options = {
     'nosidebar': True,
 }
