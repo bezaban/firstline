@@ -2,8 +2,8 @@
 Welcome to firstline’s documentation!
 *************************************
 
-*  `firstline package <firstline.rst>`_
-   *  `Subpackages <firstline.rst#subpackages>`_
+*  `firstline package <firstline.rst>`
+   *  `Subpackages <firstline.rst#subpackages>`
 
 
 
