@@ -37,7 +37,7 @@
 ## firstline.confighandler module[¶](#module-firstline.confighandler "Permalink to this headline")
 
   - *<span class="pre">class</span>*
-    `firstline.confighandler.``ConfigHandler`<span class="sig-paren">(</span>*<span class="n"><span class="pre">configfile</span></span>*,
+    `firstline.confighandler.ConfigHandler`<span class="sig-paren">(</span>*<span class="n"><span class="pre">configfile</span></span>*,
     *<span class="n"><span class="pre">default\_config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span>*,
     *<span class="n"><span class="pre">interactive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span>*<span class="sig-paren">)</span>[¶](#firstline.confighandler.ConfigHandler "Permalink to this definition")  
     Bases: `object`
