@@ -1,53 +1,49 @@
+.. container:: related
+
+   .. rubric:: Navigation
+      :name: navigation
+
+   -  `index <genindex.rst>`__
+   -  `modules <py-modindex.rst>`__ \|
+   -  `firstline documentation <index.rst>`__ »
+   -  `Search <>`__
+
 .. container:: document
 
    .. container:: documentwrapper
 
-      .. container:: bodywrapper
+      .. container:: body
 
-         .. container:: body
+         .. rubric:: Search
+            :name: search-documentation
 
-            .. rubric:: Search
-               :name: search-documentation
+         .. admonition::
+            :name: fallback
 
-            .. admonition::
-               :name: fallback
+            Please activate JavaScript to enable the search
+            functionality.
 
-               Please activate JavaScript to enable the search
-               functionality.
+         Searching for multiple words only shows matches that contain
+         all words.
 
-            Searching for multiple words only shows matches that contain
-            all words.
+         .. container::
+            :name: search-results
 
-            .. container::
-               :name: search-results
-
-   .. container:: sphinxsidebar
-
-      .. container:: sphinxsidebarwrapper
-
-         .. rubric:: `firstline <index.rst>`__
-            :name: firstline
-            :class: logo
-
-         .. rubric:: Navigation
-            :name: navigation
-
-         Contents:
-
-         -  `firstline package <firstline.rst>`__
-         -  `firstline <modules.rst>`__
-
-         .. container:: relations
-
-            .. rubric:: Related Topics
-               :name: related-topics
-
-            -  `Documentation overview <index.rst>`__
+         .. container:: clearer
 
    .. container:: clearer
 
+.. container:: related
+
+   .. rubric:: Navigation
+      :name: navigation-1
+
+   -  `index <genindex.rst>`__
+   -  `modules <py-modindex.rst>`__ \|
+   -  `firstline documentation <index.rst>`__ »
+   -  `Search <>`__
+
 .. container:: footer
 
-   ©2021, Author. \| Powered by `Sphinx
-   3.5.3 <http://sphinx-doc.org/>`__ & `Alabaster
-   0.7.12 <https://github.com/bitprophet/alabaster>`__
+   © Copyright 2021, Author. Created using
+   `Sphinx <https://www.sphinx-doc.org/>`__ 3.5.3.

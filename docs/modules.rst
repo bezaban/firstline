@@ -1,81 +1,65 @@
+.. container:: related
+
+   .. rubric:: Navigation
+      :name: navigation
+
+   -  `index <genindex.rst>`__
+   -  `modules <py-modindex.rst>`__ \|
+   -  `previous <firstline.helpers.rst>`__ \|
+   -  `firstline documentation <index.rst>`__ »
+   -  `firstline <>`__
+
 .. container:: document
 
    .. container:: documentwrapper
 
-      .. container:: bodywrapper
+      .. container:: body
 
-         .. container:: body
+         .. container:: section
+            :name: firstline
 
-            .. container:: section
+            .. rubric:: firstline\ `¶ <#firstline>`__
                :name: firstline
 
-               .. rubric:: firstline\ `¶ <#firstline>`__
-                  :name: firstline
+            .. container:: toctree-wrapper compound
 
-               .. container:: toctree-wrapper compound
+               -  `firstline package <firstline.rst>`__
 
-                  -  `firstline package <firstline.rst>`__
+                  -  `Subpackages <firstline.rst#subpackages>`__
 
-                     -  `Subpackages <firstline.rst#subpackages>`__
+                     -  `firstline.helpers
+                        package <firstline.helpers.rst>`__
 
-                        -  `firstline.helpers
-                           package <firstline.helpers.rst>`__
+                        -  `Submodules <firstline.helpers.rst#submodules>`__
+                        -  `firstline.helpers.helpers
+                           module <firstline.helpers.rst#module-firstline.helpers.helpers>`__
+                        -  `Module
+                           contents <firstline.helpers.rst#module-firstline.helpers>`__
 
-                           -  `Submodules <firstline.helpers.rst#submodules>`__
-                           -  `firstline.helpers.helpers
-                              module <firstline.helpers.rst#module-firstline.helpers.helpers>`__
-                           -  `Module
-                              contents <firstline.helpers.rst#module-firstline.helpers>`__
+                  -  `Submodules <firstline.rst#submodules>`__
+                  -  `firstline.confighandler
+                     module <firstline.rst#module-firstline.confighandler>`__
+                  -  `firstline.pidfile
+                     module <firstline.rst#module-firstline.pidfile>`__
+                  -  `Module
+                     contents <firstline.rst#module-firstline>`__
 
-                     -  `Submodules <firstline.rst#submodules>`__
-                     -  `firstline.confighandler
-                        module <firstline.rst#module-firstline.confighandler>`__
-                     -  `firstline.pidfile
-                        module <firstline.rst#module-firstline.pidfile>`__
-                     -  `Module
-                        contents <firstline.rst#module-firstline>`__
-
-   .. container:: sphinxsidebar
-
-      .. container:: sphinxsidebarwrapper
-
-         .. rubric:: `firstline <index.rst>`__
-            :name: firstline-1
-            :class: logo
-
-         .. rubric:: Navigation
-            :name: navigation
-
-         Contents:
-
-         -  `firstline package <firstline.rst>`__
-         -  `firstline <#>`__
-
-            -  `firstline package <firstline.rst>`__
-
-         .. container:: relations
-
-            .. rubric:: Related Topics
-               :name: related-topics
-
-            -  `Documentation overview <index.rst>`__
-
-               -  Previous: `firstline.helpers
-                  package <firstline.helpers.rst>`__
-
-         .. container::
-            :name: searchbox
-
-            .. rubric:: Quick search
-               :name: searchlabel
-
-            .. container:: searchformwrapper
+         .. container:: clearer
 
    .. container:: clearer
 
+.. container:: related
+
+   .. rubric:: Navigation
+      :name: navigation-1
+
+   -  `index <genindex.rst>`__
+   -  `modules <py-modindex.rst>`__ \|
+   -  `previous <firstline.helpers.rst>`__ \|
+   -  `firstline documentation <index.rst>`__ »
+   -  `firstline <>`__
+
 .. container:: footer
 
-   ©2021, Author. \| Powered by `Sphinx
-   3.5.3 <http://sphinx-doc.org/>`__ & `Alabaster
-   0.7.12 <https://github.com/bitprophet/alabaster>`__ \| `Page
-   source <_sources/modules.rst.txt>`__
+   © Copyright 2021, Author. Created using
+   `Sphinx <https://www.sphinx-doc.org/>`__ 3.5.3.
