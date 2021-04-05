@@ -14,9 +14,9 @@ setup(
     extras_require={
         'dev': [
             #'sphinx-markdown-builder',
-            #'sphinx_md',
+            #'sphinx_md', # not really what I want
             #'recommonmark',
-            'sphinxcontrib-restbuilder',
+            #'sphinxcontrib-restbuilder==0.2', # 0.2 is closest wrt links
             'sphinx',
             'pylint'
          ]
