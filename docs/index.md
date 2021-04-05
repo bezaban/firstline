@@ -31,6 +31,15 @@
 
 </div>
 
+<div id="indices" class="section">
+
+# Indices[¶](#indices "Permalink to this headline")
+
+\[[<span class="std std-ref">Index</span>](genindex.md)\]
+\[[<span class="std std-ref">Module Index</span>](py-modindex.md)\]
+
+</div>
+
 </div>
 
 </div>
