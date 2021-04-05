@@ -29,7 +29,7 @@ author = 'Author'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinxcontrib.restbuilder',
+#    'sphinxcontrib.restbuilder',
 #    'sphinx_markdown_builder',
 #    'recommonmark',
 #    'sphinx.ext.viewcode',
