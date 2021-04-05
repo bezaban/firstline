@@ -11,3 +11,8 @@
 {# Omit the sidebar #}
 {% block sidebar2 %}
 {% endblock %}
+
+{# Custom footer #}
+{% block footer %}
+<div class=footer>&copy;{{ copyright }} | Powered by <a href="http://sphinx-doc.org/">Sphinx {{ sphinx_version }}</a></div>
+{% endblock %}
