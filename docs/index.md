@@ -21,14 +21,11 @@
               - [Submodules](firstline.helpers.md#submodules)
               - [firstline.helpers.helpers
                 module](firstline.helpers.md#module-firstline.helpers.helpers)
-              - [Module
-                contents](firstline.helpers.md#module-firstline.helpers)
       - [Submodules](firstline.md#submodules)
       - [firstline.confighandler
         module](firstline.md#module-firstline.confighandler)
       - [firstline.pidfile
         module](firstline.md#module-firstline.pidfile)
-      - [Module contents](firstline.md#module-firstline)
 
 </div>
 

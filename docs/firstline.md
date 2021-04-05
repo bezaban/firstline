@@ -4,9 +4,11 @@
 
 <div class="body" role="main">
 
-<div id="firstline-package" class="section">
+<div id="module-firstline" class="section">
 
-# firstline package[¶](#firstline-package "Permalink to this headline")
+<span id="firstline-package"></span>
+
+# firstline package[¶](#module-firstline "Permalink to this headline")
 
 <div id="subpackages" class="section">
 
@@ -18,7 +20,6 @@
       - [Submodules](firstline.helpers.md#submodules)
       - [firstline.helpers.helpers
         module](firstline.helpers.md#module-firstline.helpers.helpers)
-      - [Module contents](firstline.helpers.md#module-firstline.helpers)
 
 </div>
 
@@ -84,14 +85,6 @@
     <!-- end list -->
     
       - `remove`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#firstline.pidfile.Pidfile.remove "Permalink to this definition")
-
-</div>
-
-<div id="module-firstline" class="section">
-
-<span id="module-contents"></span>
-
-## Module contents[¶](#module-firstline "Permalink to this headline")
 
 </div>
 
