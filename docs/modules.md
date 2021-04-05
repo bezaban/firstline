@@ -1,15 +1,3 @@
-<div class="related" role="navigation" aria-label="related navigation">
-
-### Navigation
-
-  - [index](genindex.md "General Index")
-  - [modules](py-modindex.md "Python Module Index") |
-  - [previous](firstline.helpers.md "firstline.helpers package") |
-  - [firstline documentation](index.md) »
-  - [firstline]()
-
-</div>
-
 <div class="document">
 
 <div class="documentwrapper">
@@ -41,35 +29,20 @@
 
 </div>
 
+</div>
+
+</div>
+
 <div class="clearer">
 
 </div>
 
 </div>
 
-</div>
+<div class="footer">
 
-<div class="clearer">
-
-</div>
-
-</div>
-
-<div class="related" role="navigation" aria-label="related navigation">
-
-### Navigation
-
-  - [index](genindex.md "General Index")
-  - [modules](py-modindex.md "Python Module Index") |
-  - [previous](firstline.helpers.md "firstline.helpers package") |
-  - [firstline documentation](index.md) »
-  - [firstline]()
-
-</div>
-
-<div class="footer" role="contentinfo">
-
-© Copyright 2021, Author. Created using
-[Sphinx](https://www.sphinx-doc.org/) 3.5.3.
+©2021, Author. | Powered by [Sphinx 3.5.3](http://sphinx-doc.org/) &
+[Alabaster 0.7.12](https://github.com/bitprophet/alabaster) | [Page
+source](_sources/modules.rst.txt)
 
 </div>
