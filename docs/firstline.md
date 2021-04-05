@@ -107,5 +107,4 @@
 
 </div>
 
-\[:ref:\`genindex\`\] \[:ref:\`modindex\`\] ©2021 Paul Bergene. Powered
-by \`Sphinx \`\_
+©2021 Paul Bergene. Powered by [Sphinx](http://sphinx-doc.org/)
