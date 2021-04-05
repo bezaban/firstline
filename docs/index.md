@@ -26,16 +26,6 @@
       - [firstline.pidfile
         module](firstline.md#module-firstline.pidfile)
       - [Module contents](firstline.md#module-firstline)
-  - [firstline](modules.md)
-      - [firstline package](firstline.md)
-          - [Subpackages](firstline.md#subpackages)
-              - [firstline.helpers package](firstline.helpers.md)
-          - [Submodules](firstline.md#submodules)
-          - [firstline.confighandler
-            module](firstline.md#module-firstline.confighandler)
-          - [firstline.pidfile
-            module](firstline.md#module-firstline.pidfile)
-          - [Module contents](firstline.md#module-firstline)
 
 </div>
 
