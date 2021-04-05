@@ -20,7 +20,7 @@
 
 ## firstline.helpers.helpers module[¶](#module-firstline.helpers.helpers "Permalink to this headline")
 
-  - `firstline.helpers.helpers.``getlogconfig`<span class="sig-paren">(</span>*<span class="n"><span class="pre">filename</span></span>*,
+  - `firstline.helpers.helpers.getlogconfig`<span class="sig-paren">(</span>*<span class="n"><span class="pre">filename</span></span>*,
     *<span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span>*<span class="sig-paren">)</span>[¶](#firstline.helpers.helpers.getlogconfig "Permalink to this definition")
 
 </div>

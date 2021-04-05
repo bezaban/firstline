@@ -5,6 +5,7 @@
 
 firstline API reference
 =====================================
+[:ref:`genindex`] [:ref:`modindex`]
 
 .. toctree::
    :maxdepth: 4
@@ -12,6 +13,3 @@ firstline API reference
 
    firstline
 
-Quick links
-===========
-[:ref:`genindex`] [:ref:`modindex`]

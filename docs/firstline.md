@@ -76,7 +76,7 @@
 ## firstline.pidfile module[¶](#module-firstline.pidfile "Permalink to this headline")
 
   - *<span class="pre">class</span>*
-    `firstline.pidfile.``Pidfile`<span class="sig-paren">(</span>*<span class="n"><span class="pre">pidfile</span></span>*<span class="sig-paren">)</span>[¶](#firstline.pidfile.Pidfile "Permalink to this definition")  
+    `firstline.pidfile.Pidfile`<span class="sig-paren">(</span>*<span class="n"><span class="pre">pidfile</span></span>*<span class="sig-paren">)</span>[¶](#firstline.pidfile.Pidfile "Permalink to this definition")  
     Bases: `object`
     
       - `getpid`<span class="sig-paren">(</span><span class="sig-paren">)</span>[¶](#firstline.pidfile.Pidfile.getpid "Permalink to this definition")
