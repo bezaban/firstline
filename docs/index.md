@@ -44,7 +44,7 @@
 <div class="footer">
 
 ©2021, Paul Bergene | Powered by
-[Sphinx 3.5.3](https://www.sphinx-doc.org/),
+[Sphinx 4.1.2](https://www.sphinx-doc.org/),
 [pandoc](https://pandoc.org), GNU Make with a sprinkle of duct tape.
 
 </div>
