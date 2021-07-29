@@ -10,7 +10,7 @@ Probably not useful
     ],
 
     dependency_links=[
-        'http://github.com/bezaban/firstline/tarball/v0.2#egg=firstline'
+        'http://github.com/bezaban/firstline/tarball/v0.3#egg=firstline'
     ]
 ```
 

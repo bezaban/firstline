@@ -7,7 +7,7 @@ setup(
     author_email='paul@snowcrashed.net',
     url='https://snowcrashed.net',
     name='firstline',
-    version='0.2',
+    version='0.3',
     py_modules=['firstline'],
     packages=find_packages(),
 

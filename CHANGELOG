@@ -3,6 +3,7 @@
 * Added pidfile handling
 * Added basic logging
 * Introducing CHANGELOG
+* WIP: Adding sphinx docs and Make targets
 
 # v0.2
 * Reworked logging config to dictConfig
