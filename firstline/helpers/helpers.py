@@ -1,4 +1,7 @@
 import os.path
+import logging
+
+log = logging.getLogger()
 
 def getlogconfig(filename, debug=False):
 

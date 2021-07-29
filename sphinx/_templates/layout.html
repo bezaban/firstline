@@ -1,0 +1,20 @@
+{% extends "!layout.html" %}
+
+{# Omit the top navigation bar. #}
+{% block relbar1 %}
+{% endblock %}
+
+{# Omit the bottom navigation bar. #}
+{% block relbar2 %}
+{% endblock %} 
+
+{# Omit the sidebar #}
+{% block sidebar2 %}
+{% endblock %}
+
+{# Custom footer #}
+{% block footer %}
+<div class=footer>
+&copy;{{ copyright }} | Powered by <a href="https://www.sphinx-doc.org/">Sphinx {{ sphinx_version }}</a>, <a href="https://pandoc.org">pandoc</a>, GNU Make with a sprinkle of duct tape. 
+</div>
+{% endblock %}

@@ -19,6 +19,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+sphinx/_build/
+sphinx/*.rst
+!sphinx/index.rst
+docs/.doctrees
 
 # Log files 
 pip-log.txt
