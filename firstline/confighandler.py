@@ -29,7 +29,7 @@ class ConfigHandler:
                     self.log.debug('Reconfiguring interactively')
                     self.config = self.__create_default_config_interactive(self.config)
                     self.__write()
-                    click.confirm('Continue running?', abort=True):
+                    click.confirm('Continue running?', abort=True)
                     
 
     def __config_exists(self, configfile):
