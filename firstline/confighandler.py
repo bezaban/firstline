@@ -28,6 +28,10 @@ class ConfigHandler:
                 if click.confirm('Do you want to reconfigure interactively?'):
                     self.log.debug('Reconfiguring interactively')
                     self.config = self.__create_default_config_interactive(self.config)
+                    self.__write()
+                    if not click.confirm('Continue running?'):
+                        break
+                    
 
     def __config_exists(self, configfile):
         if not os.path.exists(configfile):
@@ -78,7 +82,6 @@ class ConfigHandler:
         with open(self.configfile, 'r') as infile:
             config = json.load(infile)
             infile.close()
-
             return config
 
     def __write(self):
