@@ -29,9 +29,7 @@ class ConfigHandler:
                     self.log.debug('Reconfiguring interactively')
                     self.config = self.__create_default_config_interactive(self.config)
                     self.__write()
-                    if not click.confirm('Continue running?'):
-                        sys.exit()
-                         
+                    click.confirm('Continue running?', abort=True):
                     
 
     def __config_exists(self, configfile):
