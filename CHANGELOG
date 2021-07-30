@@ -1,3 +1,5 @@
+# v0.4
+* Added interactive reconfiguration of existing config with -i
 
 # v0.3
 * Added pidfile handling

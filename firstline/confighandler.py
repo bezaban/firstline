@@ -24,6 +24,10 @@ class ConfigHandler:
             self.__write()
         else:
             self.config = self.__read()
+            if interactive:
+                if click.confirm('Do you want to reconfigure interactively?'):
+                    self.log.debug('Reconfiguring interactively')
+                    self.config = self.__create_default_config_interactive(self.config)
 
     def __config_exists(self, configfile):
         if not os.path.exists(configfile):
@@ -35,11 +39,9 @@ class ConfigHandler:
 
     # Todo: wizardify to replace 
     def __create_default_config(self, default_config=None):
-
         # Some sort of default config
         #hostname = os.uname()[1]
         config = default_config
-
         return config
 
     def __create_default_config_interactive(self, default_config):
@@ -67,7 +69,6 @@ class ConfigHandler:
                 raise ValueError('Duplicate config entry in list')
             else:
                 self.config[key].append(value)
-
         self.__write()
 
     def set_list(self):
