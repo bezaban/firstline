@@ -30,7 +30,8 @@ class ConfigHandler:
                     self.config = self.__create_default_config_interactive(self.config)
                     self.__write()
                     if not click.confirm('Continue running?'):
-                        break
+                        sys.exit()
+                         
                     
 
     def __config_exists(self, configfile):
