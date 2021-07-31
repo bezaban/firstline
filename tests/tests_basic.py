@@ -26,7 +26,7 @@ class test_firstline(unittest.TestCase):
             'default_list':[ 'default_list_item' ]
             }
 
-        interactive = True 
+        interactive = False 
         config = firstline.ConfigHandler('config.json', config, interactive)
 
 if __name__ == '__main__':
