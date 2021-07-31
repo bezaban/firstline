@@ -47,6 +47,7 @@ clean-doc:
 
 clean-tests:
 	rm -f tests/test.log
+	rm config.json
 
 clean-venv:
 	rm -rf $(VENV_NAME) 
