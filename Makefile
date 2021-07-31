@@ -29,7 +29,7 @@ test: dev
 	${PYTHON} -m unittest discover tests/
 
 lint: dev
-	${PYTHON} -m pylint firstline 
+	${PYTHON} -m pylint firstline --exit-zero
 
 doc: dev
 	rm -rf docs/*
