@@ -20,5 +20,14 @@ class test_firstline(unittest.TestCase):
         print('PID: ', pidfile.getpid())
         pidfile.remove()         
 
+    def test_config(self):
+        config = {
+            'default_value':  'default',
+            'default_list':[ 'default_list_item' ]
+            }
+
+        interactive = True 
+        config = firstline.ConfigHandler('config.json', config, interactive)
+
 if __name__ == '__main__':
     unittest.main()

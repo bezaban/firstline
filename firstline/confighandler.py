@@ -8,7 +8,7 @@ from pathlib import Path
 
 class ConfigHandler: 
 
-    def __init__(self, configfile, default_config=None, interactive=False):
+    def __init__(self, configfile, config, interactive=False):
 
         self.log = logging.getLogger()
         self.configfile = configfile
@@ -18,20 +18,19 @@ class ConfigHandler:
 
         if not self.__config_exists(self.configfile):
             if interactive:
-                self.config = self.__create_default_config_interactive(default_config)
+                self.config = self.__create_config_interactive(config)
             else:
-                self.config = self.__create_default_config(default_config)
+                self.config = config
             self.__write()
         else:
             self.config = self.__read()
             if interactive:
-                if click.confirm('Do you want to reconfigure interactively?'):
+                if click.confirm('Do you want to reconfigure interactively?', default = True):
                     self.log.debug('Reconfiguring interactively')
-                    self.config = self.__create_default_config_interactive(self.config)
+                    self.config = self.__create_config_interactive(self.config)
                     self.__write()
-                    click.confirm('Continue running?', abort=True)
+                    click.confirm('Continue running?', abort=True, default=True)
                     
-
     def __config_exists(self, configfile):
         if not os.path.exists(configfile):
             self.log.warning('Config file %s not found' % configfile)
@@ -40,21 +39,10 @@ class ConfigHandler:
             self.log.info('Found config file %s' % configfile)
             return True
 
-    # Todo: wizardify to replace 
-    def __create_default_config(self, default_config=None):
-        # Some sort of default config
-        #hostname = os.uname()[1]
-        config = default_config
-        return config
-
-    def __create_default_config_interactive(self, default_config):
-        config = {}
-        for key, value in default_config.items():
+    def __create_config_interactive(self, config):
+        for key, value in config.items():
                 config[key] = click.prompt('Enter value for ' + key, default=value)
         return config
-
-    def get_hostname(self):
-        return self.config['hostname']
 
     def add_path_entry(self, key, Path):
         pass
@@ -78,13 +66,14 @@ class ConfigHandler:
         pass
 
     def __read(self):
+        self.log.debug("Reading configfile %s" % self.configfile)
         with open(self.configfile, 'r') as infile:
             config = json.load(infile)
             infile.close()
             return config
 
     def __write(self):
-        self.log.info("Writing configfile %s" % self.configfile)
+        self.log.debug("Writing configfile %s" % self.configfile)
         with open(self.configfile, 'w') as outfile:
             json.dump(self.config, outfile, indent=4)
             outfile.close()
