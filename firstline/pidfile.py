@@ -11,9 +11,9 @@ class Pidfile:
 
         self.pid = str(os.getpid())
         self.log.debug('Writing pid %s to pidfile %s', self.pid, self.pidfile)
-        self.pidfilehandler = open(self.pidfile, 'w')
-        self.pidfilehandler.write(self.pid)
-        self.pidfilehandler.close()
+   
+        with open(self.pidfile, 'w') as file:
+            file.write(self.pid)
 
     def remove(self):
         self.log.debug("Removing pidfile %s", self.pidfile)
