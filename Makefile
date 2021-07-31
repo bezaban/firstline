@@ -26,7 +26,10 @@ $(VENV_NAME)/.dev:
 	touch $(VENV_NAME)/.dev
 
 test: dev
-	 ${PYTHON} -m unittest discover tests/
+	${PYTHON} -m unittest discover tests/
+
+lint: dev
+	${PYTHON} -m pylint firstline 
 
 doc: dev
 	rm -rf docs/*

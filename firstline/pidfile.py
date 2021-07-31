@@ -9,16 +9,14 @@ class Pidfile:
         self.log = logging.getLogger()
         self.pidfile = pidfile
 
-        self.pid = str(os.getpid()) 
-    
-        self.log.debug('Writing pid %s to pidfile %s' % (self.pid, self.pidfile))
-        
+        self.pid = str(os.getpid())
+        self.log.debug('Writing pid %s to pidfile %s', self.pid, self.pidfile)
         self.pidfilehandler = open(self.pidfile, 'w')
         self.pidfilehandler.write(self.pid)
         self.pidfilehandler.close()
 
     def remove(self):
-        self.log.debug('Removing pidfile %s' % self.pidfile)
+        self.log.debug("Removing pidfile %s", self.pidfile)
         os.remove(self.pidfile)
 
     def getpid(self):

@@ -18,21 +18,21 @@ def getlogconfig(filename, debug=False):
         },
 
         'handlers': {
-            'default': { 
+            'default': {
                 'level': 'INFO',
                 'formatter': 'standard',
                 'class': 'logging.FileHandler',
                 'filename': filename,
                 'mode': 'a',
             },
-            'debug': { 
+            'debug': {
                 'level': 'DEBUG',
                 'formatter': 'standard',
                 'class': 'logging.StreamHandler',
                 'stream': 'ext://sys.stdout'
             }
         },
-        'loggers': { 
+        'loggers': {
             '': {  # root logger
                 'handlers': ['default'],
                 'level': 'INFO',
@@ -43,8 +43,7 @@ def getlogconfig(filename, debug=False):
 
     if debug:
         logging_config['loggers']['']['handlers'] = ['default', 'debug']
-        logging_config['handlers']['default']['level'] = 'DEBUG' 
-        logging_config['loggers']['']['level'] = 'DEBUG' 
+        logging_config['handlers']['default']['level'] = 'DEBUG'
+        logging_config['loggers']['']['level'] = 'DEBUG'
 
     return logging_config
-
