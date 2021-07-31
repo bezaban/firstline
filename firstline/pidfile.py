@@ -11,7 +11,7 @@ class Pidfile:
 
         self.pid = str(os.getpid())
         self.log.debug('Writing pid %s to pidfile %s', self.pid, self.pidfile)
-   
+
         with open(self.pidfile, 'w') as file:
             file.write(self.pid)
 
