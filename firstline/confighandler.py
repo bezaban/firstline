@@ -17,17 +17,16 @@ class ConfigHandler:
 
         if not self.__config_exists(self.configfile):
             if interactive:
-                self.config = self.__create_config_interactive(config)
+                self.__create_config_interactive(config)
             else:
                 self.config = config
-            self.__write()
+                self.__write()
         else:
             self.config = self.__read()
             if interactive:
                 if click.confirm('Do you want to reconfigure interactively?', default = True):
                     self.log.debug('Reconfiguring interactively')
-                    self.config = self.__create_config_interactive(self.config)
-                    self.__write()
+                    self.__create_config_interactive(self.config)
                     click.confirm('Continue running?', abort=True, default=True)
 
     def __config_exists(self, configfile):
@@ -39,8 +38,8 @@ class ConfigHandler:
 
     def __create_config_interactive(self, config):
         for key, value in config.items():
-            config[key] = click.prompt('Enter value for ' + key, default=value)
-        return config
+            self.config[key] = click.prompt('Enter value for ' + key, default=value)
+        self.__write()
 
     def add_path_entry(self, key, path):
         pass
