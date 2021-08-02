@@ -16,14 +16,11 @@
 <span class="caption-text">Contents:</span>
 
   - [firstline package](firstline.md)
-      - [Subpackages](firstline.md#subpackages)
-          - [firstline.helpers package](firstline.helpers.md)
-              - [Submodules](firstline.helpers.md#submodules)
-              - [firstline.helpers.helpers
-                module](firstline.helpers.md#module-firstline.helpers.helpers)
       - [Submodules](firstline.md#submodules)
       - [firstline.confighandler
         module](firstline.md#module-firstline.confighandler)
+      - [firstline.helpers
+        module](firstline.md#module-firstline.helpers)
       - [firstline.pidfile
         module](firstline.md#module-firstline.pidfile)
 

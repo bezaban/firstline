@@ -61,15 +61,11 @@
 <ul>
 <li><a href="firstline.md#module-firstline.confighandler">module</a></li>
 </ul></li>
-<li>firstline.helpers
-<ul>
-<li><a href="firstline.helpers.md#module-firstline.helpers">module</a></li>
-</ul></li>
 </ul></td>
 <td><ul>
-<li>firstline.helpers.helpers
+<li>firstline.helpers
 <ul>
-<li><a href="firstline.helpers.md#module-firstline.helpers.helpers">module</a></li>
+<li><a href="firstline.md#module-firstline.helpers">module</a></li>
 </ul></li>
 <li>firstline.pidfile
 <ul>
@@ -90,11 +86,10 @@
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><a href="firstline.md#firstline.confighandler.ConfigHandler.get_hostname">get_hostname() (firstline.confighandler.ConfigHandler method)</a></li>
 <li><a href="firstline.md#firstline.confighandler.ConfigHandler.get_kv">get_kv() (firstline.confighandler.ConfigHandler method)</a></li>
 </ul></td>
 <td><ul>
-<li><a href="firstline.helpers.md#firstline.helpers.helpers.getlogconfig">getlogconfig() (in module firstline.helpers.helpers)</a></li>
+<li><a href="firstline.md#firstline.helpers.getlogconfig">getlogconfig() (in module firstline.helpers)</a></li>
 <li><a href="firstline.md#firstline.pidfile.Pidfile.getpid">getpid() (firstline.pidfile.Pidfile method)</a></li>
 </ul></td>
 </tr>
@@ -114,8 +109,7 @@
 <ul>
 <li><a href="firstline.md#module-firstline">firstline</a></li>
 <li><a href="firstline.md#module-firstline.confighandler">firstline.confighandler</a></li>
-<li><a href="firstline.helpers.md#module-firstline.helpers">firstline.helpers</a></li>
-<li><a href="firstline.helpers.md#module-firstline.helpers.helpers">firstline.helpers.helpers</a></li>
+<li><a href="firstline.md#module-firstline.helpers">firstline.helpers</a></li>
 <li><a href="firstline.md#module-firstline.pidfile">firstline.pidfile</a></li>
 </ul></li>
 </ul></td>
