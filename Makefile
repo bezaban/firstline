@@ -62,7 +62,7 @@ clean-doc:
 #: Clean up tests
 clean-tests:
 	rm -f tests/test.log
-	rm config.json
+	rm -f config.json
 
 #: Clean up virtualenv
 clean-venv:
