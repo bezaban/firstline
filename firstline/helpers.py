@@ -1,9 +1,11 @@
+"""Various helper methods with no other homes"""
 import os.path
 import logging
 
 log = logging.getLogger()
 
 def getlogconfig(filename, debug=False):
+    """Returns default log config"""
 
     if os.path.isdir('log'):
         filename = 'log/{0}'.format(filename)

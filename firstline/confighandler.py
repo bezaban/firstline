@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module to manage configuration"""
 import os
 import json
 import logging
@@ -6,7 +7,7 @@ import logging
 import click
 
 class ConfigHandler:
-
+    """Handles configuration files and values"""
     def __init__(self, configfile, config, interactive=False):
 
         self.log = logging.getLogger()
@@ -42,16 +43,19 @@ class ConfigHandler:
         self.__write()
 
     def add_path_entry(self, key, path):
-        pass
+        """Adds a path entry to configuration"""
 
     def set_kv(self, key, value):
+        """Sets a key/value configuration option"""
         self.config[key] = value
         self.__write()
 
     def get_kv(self, key):
+        """Gets a key/value configuration option"""
         return self.config[key]
 
     def set_list_item(self, key, value):
+        """Sets a list item configuration option"""
         if isinstance(self.config[key], list):
             if value in self.config[key]:
                 raise ValueError('Duplicate config entry in list')
@@ -59,7 +63,7 @@ class ConfigHandler:
             self.__write()
 
     def set_list(self):
-        pass
+        """Sets a list configuration option"""
 
     def __read(self):
         self.log.debug("Reading configfile %s", self.configfile)
